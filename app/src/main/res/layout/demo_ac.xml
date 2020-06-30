@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:orientation="vertical"
+    android:background="@color/yellow"
+
+    >
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <LinearLayout android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <Button android:layout_height="70dp"
+                android:id="@+id/face"
+                android:background="@drawable/shape"
+                android:textColor="@color/white"
+                android:text="Face Follower"
+                android:textStyle="bold"
+                android:layout_width="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                style="@style/CardView.Dark"
+                android:textSize="20dp"></Button>
+            <Button android:layout_height="70dp"
+                android:id="@+id/voice"
+                android:layout_weight="1"
+                android:layout_width="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/shape"
+                android:textColor="@color/white"
+                android:text="Voice Assistant"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                style="@style/CardView.Dark"
+                android:textSize="20dp"></Button>
+        </LinearLayout>
+        <LinearLayout android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+            <Button android:layout_height="70dp"
+                android:id="@+id/color"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/shape"
+                android:textColor="@color/white"
+                android:text="Filter"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                style="@style/CardView.Dark"
+                android:textSize="20dp"
+                ></Button>
+
+            <Button android:layout_height="70dp"
+                android:id="@+id/ocr"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/shape"
+                android:textColor="@color/white"
+                android:text="OCR"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                style="@style/CardView.Dark"
+                android:textSize="20dp"></Button>
+
+
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+        <ImageView android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:src="@drawable/trflogo6"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            ></ImageView>
+    </LinearLayout>
+
+
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="vertical">
+        <LinearLayout android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <Button android:layout_height="70dp"
+                android:id="@+id/move"
+
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/shape"
+                android:textColor="@color/white"
+                android:text="MOVE"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                style="@style/CardView.Dark"
+                android:textSize="20dp"></Button>
+            <Button android:layout_height="70dp"
+                android:id="@+id/manual"
+
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/shape"
+                android:textColor="@color/white"
+                android:text="Manual "
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                style="@style/CardView.Dark"
+                android:textSize="20dp"></Button>
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:orientation="horizontal">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="0"/>
+
+            <Button android:layout_height="70dp"
+                android:id="@+id/bluetooth"
+
+                android:layout_width="wrap_content"
+                android:layout_weight="3"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/shape"
+                android:textColor="@color/white"
+                android:text="Bluetooth"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                style="@style/CardView.Dark"
+                android:textSize="20dp"></Button>
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.LinearLayoutCompat>
