@@ -225,7 +225,7 @@ public class Color_Detector extends MainActivity implements CameraBridgeViewBase
         A = new Mat(width, height, CvType.CV_8UC4);
         B = new Mat(width, height, CvType.CV_8UC1);
         C = new Mat(width, height, CvType.CV_8UC4);
-        Log.d("Hello", String.valueOf(A));
+        Log.d("Hello World", String.valueOf(A));
     }
 
     @Override
@@ -243,7 +243,7 @@ public class Color_Detector extends MainActivity implements CameraBridgeViewBase
         e = v_max.getProgress();
         f = s_max.getProgress();
 
-        Log.d("TAG", "" + a + "," + b + "," + c + " " + d + "," + e + "," + f);
+        Log.d("TAG : ", "  " + a + "," + b + "," + c + " " + d + "," + e + "," + f);
 
         Imgproc.cvtColor(inputFrame.rgba(), A, Imgproc.COLOR_RGB2HSV);
         Core.inRange(A, new Scalar(a, c, b), new Scalar(d, e, f), B); // Blue Color
